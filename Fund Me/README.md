@@ -42,6 +42,19 @@ What is a blockchain oracle?
 - A blockchain oracle is a `bridge` between `blockchain smart contracts` and `external data sources`. It provides smart contracts with access to off-chain data.
 [What is a blockchain oracle?](https://www.coindesk.com/learn/blockchain-101/what-is-blockchain-oracle)  
 
+# Chainlink Features and Uses
+
+| Feature                           | Description                                                                                                                         | Use                                                                                                                              |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Decentralized Oracle Network     | Chainlink provides a decentralized oracle network that connects smart contracts with real-world data and external APIs.           | Enables smart contracts to securely access off-chain data and interact with external systems.                                    |
+| Data Feeds                        | Chainlink Price Feeds provide decentralized price data for various assets, ensuring reliability and tamper-resistance.              | Price feeds are used in decentralized finance (DeFi), gaming, insurance, and other applications requiring accurate asset prices. |
+| Verifiable Random Function (VRF) | Chainlink VRF generates secure random numbers on the blockchain, ensuring fairness and security in various applications.          | Used in gaming, gambling, and other applications requiring random number generation.                                             |
+| Keepers                           | Chainlink Keepers automate smart contract maintenance tasks, such as calling functions at predefined intervals or based on conditions. | Ensures the continuous operation of decentralized applications (DApps) by automating key processes.                            |
+| API Calls                         | Chainlink allows smart contracts to make API calls to external endpoints, enabling access to off-chain data and services.           | Integrates external data sources, services, and information into smart contracts.                                                |
+| External Adapters                 | Chainlink External Adapters extend the functionality of Chainlink nodes by allowing them to interact with external systems.         | Enhances the capabilities of Chainlink nodes to handle custom data sources and complex computations.                             |
+| Off-chain Reporting               | Chainlink's off-chain reporting enables the aggregation of data from multiple oracles to ensure accuracy and reliability.          | Improves the reliability of oracle responses by aggregating data from multiple sources.                                           |
+| Cross-chain Compatibility        | Chainlink supports cross-chain compatibility, allowing it to provide oracle services on various blockchain platforms.              | Extends the reach of Chainlink's oracle services to multiple blockchain ecosystems.                                             |
+
 ### What is the oracle problem?
 The oracle problem refers to the challenge of ensuring the `accuracy and reliability` of data obtained from external sources by blockchain smart contracts.
 [What is the oracle problem?](https://academy.binance.com/en/glossary/oracle)
