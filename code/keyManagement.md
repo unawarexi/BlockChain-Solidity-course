@@ -51,3 +51,26 @@ Metamask is a popular Ethereum wallet and browser extension that allows users to
 7. Your private key will be displayed. Copy it to a secure location.
 
 Remember to keep your private key secure and never share it with anyone. It grants full access to your Ethereum wallet and funds, so losing it or exposing it to unauthorized parties can result in loss of assets.
+
+# Verifying on Block Explorers from the UI
+
+Verifying transactions and smart contracts on block explorers is an important aspect of blockchain development, allowing developers to track and verify the status and details of transactions and smart contracts on the blockchain. Here's what you need to know:
+
+## Alchemy Dashboard & The Mempool
+
+Alchemy provides developers with a powerful dashboard and tools to monitor and analyze blockchain data,
+
+- including transaction status,
+- mempool activity, and network statistics.
+
+**The mempool** is a pool of unconfirmed transactions waiting to be included in the next block on the blockchain.
+
+#### Alchemy's dashboard allows developers to visualize and analyze mempool activity in real-time, providing insights into transaction throughput and network congestion.
+
+## Mempool
+
+The mempool, short for "memory pool," is a temporary storage area for unconfirmed transactions in a blockchain network. When a user sends a transaction,
+
+- #### it is first broadcast to the network and enters the mempool, where it waits to be included in a block by a miner.
+- #### Transactions in the mempool are ordered based on factors such as transaction fees and priority, and miners select transactions from the mempool to include in the next block they mine.
+- #### Monitoring mempool activity can provide insights into transaction processing times, network congestion, and fee dynamics on the blockchain.
